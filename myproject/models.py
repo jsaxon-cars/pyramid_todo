@@ -23,7 +23,7 @@ class ToDo(Base):
     title = Column(Text, unique=True)
     completed = Column(Boolean, unique=False)
 
-    def __init__(self, title, completed):
+    def __init__(self, title="", completed=False):
         self.title = title
         self.completed = completed
 
