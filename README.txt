@@ -4,6 +4,12 @@ myproject README
 Getting Started
 ---------------
 
+- curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
+
+- source ~/.venvburrito/startup.sh
+
+- mkvirtualenv pyramid
+
 - cd <directory containing this file>
 
 - pip install -r requirements.txt
