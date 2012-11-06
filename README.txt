@@ -7,8 +7,8 @@ Getting Started
 % curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
 % source ~/.venvburrito/startup.sh
 % mkvirtualenv pyramid
-% cd <directory containing this file>
-% python setup.py develop
+Automatically does this: % cd <directory containing this file>
+Don't need to do this:  % python setup.py develop
 % pip install -r requirements.txt
 % initialize_myproject_db development.ini
 % pserve development.ini
