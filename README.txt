@@ -8,10 +8,10 @@ Getting Started
 % source ~/.venvburrito/startup.sh
 % mkvirtualenv pyramid
 % cd <directory containing this file>
-% pip install -r requirements.txt
 % python setup.py develop
+% pip install -r requirements.txt
 % initialize_myproject_db development.ini
 % pserve development.ini
-% go to http://localhost:6543/todo 
+% go to http://localhost:6543/todo
 % go to http://localhost:6543/admin
 
