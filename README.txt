@@ -1,11 +1,18 @@
-myproject README
-==================
+Pyramid To Do MVC Platform README
+=================================
 
-Getting Started
----------------
+This repo provides a playground for Pyramid development by allowing implementing the TODOMVC frameworks.
+
+Currently it uses the non framework pure javascript one.
+
+The Pyramid Environment has been "pip freeze"d with the following inclusions and configurations to sortof mirror what Django provides out of the box:
+* SQLalchemy - allowing an ORM
+* formalchemy - for an admin tool
+* jinja2 - for templates though this right now will have a major conflict with the other client side rendering templates.  We'll need to look at the best way to handle client versus server side templates in this project.
+* <blank> - There is no user authentication like the Django admin stuff.
+
 
 Get your virtual environment rocking with Virtualenv Burrito:
-
 % curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
 % source ~/.venvburrito/startup.sh
 
