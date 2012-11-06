@@ -26,8 +26,6 @@ js.jqueryui==1.8.24
 js.jqueryui-selectmenu==0.1
 js.jqueryui-syronex-colorpicker==1.0.0
 js.tinymce==3.5.2-1
-## !! Could not determine repository location
-myproject==0.0
 nose==1.2.1
 postmarkup==1.2.0
 pyramid==1.4a3
