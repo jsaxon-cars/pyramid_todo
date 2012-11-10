@@ -24,7 +24,7 @@ Be in this directory and:
 % initialize_myproject_db development.ini
 
 Serve the project:
-% pserve development.ini
+% pserve development.ini --reload
 
 Navigate to http://localhost:6543/todo
 Navigate to http://localhost:6543/admin
