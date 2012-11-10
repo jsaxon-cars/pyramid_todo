@@ -14,20 +14,21 @@ The Pyramid Environment has been "pip freeze"d with the following inclusions and
 
 Get your virtual environment rocking with Virtualenv Burrito:
 
- % curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
- % source ~/.venvburrito/startup.sh
+	% curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | $SHELL
+	% source ~/.venvburrito/startup.sh
 
 Create a new virtual environment:
- % mkvirtualenv pyramid
+
+	% mkvirtualenv pyramid
 
 Be in this directory and:
 
- % pip install -r requirements.txt
- % initialize_myproject_db development.ini
+	% pip install -r requirements.txt
+	% initialize_myproject_db development.ini
 
 Serve the project:
  
- % pserve development.ini --reload
+	% pserve development.ini --reload
 
 Try It Out!
 -----------
