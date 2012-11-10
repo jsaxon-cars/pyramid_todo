@@ -9,7 +9,7 @@ The Pyramid Environment has been "pip freeze"d with the following inclusions and
 * SQLalchemy - allowing an ORM
 * formalchemy - for an admin tool
 * jinja2 - for templates though this right now will have a major conflict with the other client side rendering templates.  We'll need to look at the best way to handle client versus server side templates in this project.
-* <blank> - There is no user authentication like the Django admin stuff.
+* There is no user authentication like the Django admin stuff.
 
 
 Get your virtual environment rocking with Virtualenv Burrito:
