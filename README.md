@@ -26,8 +26,8 @@ Be in this directory and:
  % initialize_myproject_db development.ini
 
 Serve the project:
-
- % pserve development.ini
+ 
+ % pserve development.ini --reload
 
 Try It Out!
 -----------
