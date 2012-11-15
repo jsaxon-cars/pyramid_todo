@@ -32,14 +32,14 @@
 					</div>
 					<input class="edit" value="Create a TodoMVC template">
 				</li>
-				<li>
-					<div class="view">
-						<input class="toggle" type="checkbox">
-						<label>Rule the web</label>
-						<button class="destroy"></button>
-					</div>
-					<input class="edit" value="Rule the web">
-				</li>
+				[% for item in items %]
+				[% include 'templates/todo_item.jinja2' %]
+				[% endfor %]			
+			</ul>
+			<ul>
+				[% for item in items %]
+				[% include 'templates/todo_item.jinja2' %]
+				[% endfor %]			
 			</ul>
 		</section>
 		<!-- This footer should hidden by default and shown when there are todos -->
