@@ -14,10 +14,10 @@ def main(global_config, **settings):
     Base.metadata.bind = engine
     config = Configurator(settings=settings)
     jinja_settings = {
-        'block_start_string': '@@',
-        'block_end_string': '@@',
-        'variable_start_string': '@=',
-        'variable_end_string': '=@'
+        'block_start_string': '[%',
+        'block_end_string': '%]',
+        'variable_start_string': '[[',
+        'variable_end_string': ']]'
     }
     config.registry.settings['jinja2'] = jinja_settings
     config.include('pyramid_jinja2')

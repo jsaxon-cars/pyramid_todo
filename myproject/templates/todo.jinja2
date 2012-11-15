@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Template • TodoMVC</title>
-	<link rel="stylesheet" href="{{request.static_url('myproject:static/todomvc/assets/base.css')}}">
+	<link rel="stylesheet" href="[[request.static_url('myproject:static/todomvc/assets/base.css')]]">
 	<!-- CSS overrides - remove if you don't need it -->
-	<link rel="stylesheet" href="{{request.static_url('myproject:static/todomvc/css/app.css')}}">
+	<link rel="stylesheet" href="[[request.static_url('myproject:static/todomvc/css/app.css')]]">
 	<!--[if IE]>
-	<script src="{{request.static_url('myproject:static/todomvc/ie.js')}}"></script>
+	<script src="[[request.static_url('myproject:static/todomvc/ie.js')]]"></script>
 	<![endif]-->
 </head>
 <body>
@@ -70,8 +70,8 @@
 		<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 	</footer>
 	<!-- Scripts here. Don't remove this ↓ -->
-	@@'slkdfjlskdjflksdfjsdkl'@@
-	<script src="{{request.static_url('myproject:static/todomvc/assets/base.js')}}"></script>
-	<script src="{{request.static_url('myproject:static/todomvc/js/app.js')}}"></script>
+	[['slkdfjlskdjflksdfjsdkl']]
+	<script src="[[request.static_url('myproject:static/todomvc/assets/base.js')]]"></script>
+	<script src="[[request.static_url('myproject:static/todomvc/js/app.js')]]"></script>
 </body>
 </html>
