@@ -17,10 +17,9 @@ def main(global_config, **settings):
         'block_start_string': '@@',
         'block_end_string': '@@',
         'variable_start_string': '@=',
-        'variable_end_string': '=@',
-        'autoescape': 'melbatoast'
+        'variable_end_string': '=@'
     }
-    config.registry.settings['pyramid_jinja2.config'] = jinja_settings
+    config.registry.settings['jinja2'] = jinja_settings
     config.include('pyramid_jinja2')
     config.include('myproject.fainit')
     config.add_static_view('static', 'static', cache_max_age=3600)
